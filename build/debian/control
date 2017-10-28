@@ -1,0 +1,12 @@
+Source: telegram-build-reporter
+Maintainer: Andrii Bakal <andrew.bakal@gmail.com>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.8
+
+Package: telegram-build-reporter
+Architecture: all
+Depends: wget, bash
+Section: utils
+Priority: optional
+Homepage: http://github.com/421p/telegram-build-reporter
+Description: Simple program for sending CI build result to telegram.
